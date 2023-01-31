@@ -2078,6 +2078,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"xstate-client@workspace:apps/xstate-client":
+  version: 0.0.0-use.local
+  resolution: "xstate-client@workspace:apps/xstate-client"
+  languageName: unknown
+  linkType: soft
+
 "xstate@npm:^4.32.1, xstate@npm:^4.33.4":
   version: 4.35.4
   resolution: "xstate@npm:4.35.4"

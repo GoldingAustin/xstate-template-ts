@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "workspaces": [
-    "app/*"
+    "apps/**"
   ],
   "scripts": {
     "moon": "$(yarn bin moon)",
@@ -16,5 +16,8 @@
   "dependencies": {
     "xstate": "^4.32.1"
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "engines": {
+    "node": "18.12.0"
+  }
 }
