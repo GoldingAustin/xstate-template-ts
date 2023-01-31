@@ -1,0 +1,20 @@
+{
+  "version": "0.0.0",
+  "workspaces": [
+    "app/*"
+  ],
+  "scripts": {
+    "moon": "$(yarn bin moon)",
+    "postinstall": "yarn moon run :xstate-typegen"
+  },
+  "devDependencies": {
+    "@moonrepo/cli": "^0.23.1",
+    "@xstate/cli": "^0.4.2",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.13"
+  },
+  "dependencies": {
+    "xstate": "^4.32.1"
+  },
+  "packageManager": "yarn@3.3.1"
+}

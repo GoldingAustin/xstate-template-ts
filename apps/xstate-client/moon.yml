@@ -1,0 +1,21 @@
+tasks:
+  build:
+    command:
+    - vite
+    - build
+    deps:
+    - ~:build-dep1
+    platform: node
+  build-dep1:
+    command: tsc
+    platform: node
+  dev:
+    command: vite
+    local: true
+    platform: node
+  serve:
+    command:
+    - vite
+    - preview
+    local: true
+    platform: node
